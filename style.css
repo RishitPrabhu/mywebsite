@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+
+body {
+    font-family: "Bricolage Grotesque";
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    color: #EDDDD4;
+    background-color: #197278;
+    padding: 1rem;
+    align-items: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.links{
+    margin: 1rem;
+}
+
+.links:hover{
+    color: #FE001a;
+    text-decoration: underline;
+    padding-right: 2rem;
+}
