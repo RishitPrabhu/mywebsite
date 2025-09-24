@@ -1,64 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
-    font-family: "Bricolage Grotesque";
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
+    background-color: #FFFFFF;
 }
+
+
 
 .navbar {
-    color: #EDDDD4;
-    background-color: #283D3B;
-    padding: 1rem;
-    align-items: right;
+    background-color: #3C6E71;
+    color: #D9D9D9;
+    padding: 0.1rem;
+}
+
+.hello {
+    padding: 100px;
+    text-wrap: nowrap;
+    position: relative;
+}
+
+.hello img {
+    z-index: -1;
+}
+
+.hello h1 {
+    font-family: "Poppins";
+    font-size: 3rem;
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.links{
-    margin: 1rem;
+.hello p {
+    font-family: "SUSE Mono";
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
 }
 
-.links:hover{
-    color: #FE001a;
+.arvr, .gdsc {
+    padding: 100px;
+}
+
+.arvr__info, .gdsc__info {
+    font-family: "SUSE Mono";
+    padding-top: 20px;
+    line-height: 1.5rem;
+}
+
+.arvr__date, .gdsc__date {
+    font-family: "SUSE Mono";
+}
+
+.arvr h2, .gdsc h2 {
+    font-family: "Poppins";
+}
+
+.arvr h2 {
     text-decoration: underline;
-    padding-right: 2rem;
-}
-
-.header {
-    display: flex;
-    font-size: 2rem;
-    align-items: flex-end;
-}
-
-.header img{
-    width: 300px;
-}
-
-.blink {
-    animation: blinker 1.25s linear infinite;
-}
-
-@keyframes blinker {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-#educational-details {
-    background-color: #A8DADC;
-    color: #1D3557;
-    padding: 1rem;
-    font-weight: 300;
-}
-
-.education-section{
-    background-color: azure;
-
-}
-.education-level{
-    background-color: #1D3557;
 }
