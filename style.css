@@ -20,11 +20,12 @@ body {
     padding: 100px;
     text-wrap: nowrap;
     position: relative;
+    background-image: url("assests/bg1.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.45);
+    background-blend-mode: overlay;
 }
 
-.hello img {
-    z-index: -1;
-}
 
 .hello h1 {
     font-family: "Poppins";
@@ -38,6 +39,7 @@ body {
     font-size: 2.5rem;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .arvr, .gdsc {
@@ -60,4 +62,12 @@ body {
 
 .arvr h2 {
     text-decoration: underline;
+}
+
+.arvr {
+    background-color: #f1faee;
+}
+
+.gdsc {
+    background-color: #dee2ff;
 }
